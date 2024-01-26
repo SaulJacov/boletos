@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATE</title>
+</head>
+<body>
+    <h1>REGISTRATE</h1>
+    <p>llena el siguente formulario para participar</p>
+    <div>
+        <form action="procesar_registro.php" method="post">
+            <label for="nombre">ingresa tu nombre</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre"><br><br>
+            <label for="whats">WhatsApp</label><br>
+            <input type="text" name="whats" id="whats" placeholder="ingresa tu numero de telefono"><br><br>
+            <label for="email">email</label><br>
+            <input type="text" name="email" id="email" placeholder="ingresa tu email"><br><br>
+            <label for="empresa">nombre de tu empresa</label><br>
+            <input type="text" name="empresa" id="empresa" placeholder="nombre de tu empresa"><br><br>
+            <label for="puesto">puesto</label><br>
+            <input type="text" name="puesto" id="puesto" placeholder="tu puesto"><br><br>
+            <label for="grabacion">Graba tu mensaje de voz:</label><br>
+            <input type="file" accept="audio/*" capture="microphone" name="grabacion" id="grabacion" required><br><br>
+            <input type="submit" value="FINALIZA TU REGISTRO"><br>
+        </form>
+    </div>
+    
+</body>
+</html>
